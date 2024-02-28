@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Preahvihear', sans-serif;
+	font-size: 20px;
+}
+
+.home-bg {
+	background-image: url('https://wallpaperaccess.com/full/20999.jpg');
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.poke-table {
+	width: 70%;
+	background-color: beige;
+	padding: 40px;
+}
+
+.side-bg-table {
+	height: 100vh;
+	width: 30%;
+	/* background-position: 50px; */
+}
+
+.table-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* align-items: center
+	; */
+}
+
+.poke-table-img {
+	
+	background-image: url('https://storage.prompt-hunt.workers.dev/clft0i8000021mb081hq0bapg_1');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 40em;
+}
+
+.details-container {
+	width: max-content;
+	/* padding: 50px; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 5rem;
+}
